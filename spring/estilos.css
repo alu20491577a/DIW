@@ -1,0 +1,134 @@
+
+BODY {
+font : 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+color : #666666;
+margin : 0px 0px 0px 0px;
+padding : 0px 0px 0px 0px;
+text-align: center;
+background-color: #E8F4CD;
+background-image: url(images/fondo.gif);
+background-position: top left;
+background-repeat: repeat-x;
+}
+A, A:ACTIVE, A:FOCUS, A:LINK, A:VISITED {
+color:#3F7DE3;
+}
+A:HOVER {
+color:#378237;
+}
+INPUT {
+font-size:8pt;
+}
+H1{
+font-size:12pt;
+}
+H2{
+font-size:10pt;
+}
+
+#borde{
+border-left:2px solid #144700;
+border-right:2px solid #144700;
+width:549px;
+text-align:left;
+margin:auto;
+}
+
+#contenedor{
+text-align:left;
+width:549px;
+margin:auto;
+background-color :#ffffff;
+}
+
+#cabecera{
+background: transparent url(pack-imagenes/cabecera.jpg) no-repeat;
+height:288px;
+width:549px;
+}
+
+#cabecera h1 { 	
+margin:0px 0px 0px 0px;
+}
+#cabecera h1 span {
+display:none;
+}
+
+#navegador{
+background: transparent url(pack-imagenes/barranav.jpg) no-repeat;
+height : 29px;
+width: 549px;
+background-color: #144700;
+}
+
+#navegador p{
+padding: 8px 3px 1px 10px;
+margin : 0px 0px 0px 0px;
+}
+
+#cuerpo{
+width: 335px;
+padding: 13px 3px 15px 10px;
+float:right;
+background: transparent url(pack-imagenes/decora_trans.jpg) no-repeat bottom right;	
+}
+
+#campotexto{
+float: left;
+}
+#campotexto input{
+width:100px;
+}
+#fbuscar form{
+margin-bottom:0px;
+margin-top:0px;
+}
+#botonbuscar {
+padding-top:3px;
+padding-left:106px;
+}
+#botonbuscar input{
+border:0px none;
+}
+.radio{
+clear:both;
+}
+
+#lateral{
+width:200px;
+float:left;
+height:500px;
+margin-top:3px;
+}
+
+.cuerpolateral{
+background-color: #F0E68C;
+padding:5px 4px 13px 10px;
+margin-bottom:15px;
+}
+
+.titlat{
+color:#ffffff;
+font-size:8pt;
+text-transform:uppercase;
+padding:7px 3px 7px 8px;
+margin:20px 0px 0px 0px;
+font-weight:normal;
+letter-spacing:2px;
+background: #20550B url(pack-imagenes/titlat3.jpg) no-repeat bottom right;	
+}
+
+A.enlacenav, A.enlacenav:VISITED, A.enlacenav:ACTIVE, A.enlacenav:FOCUS, A.enlacenav:LINK{
+color: #FFFFFF;
+}
+A.enlacenav:HOVER{
+color: #FFFFAA;
+}
+
+#pie{
+clear : both;
+color : #cccccc;
+text-align : center;
+margin : 30px 10px 0px 10px;
+padding-bottom:10px;
+}
